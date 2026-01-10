@@ -1,0 +1,11 @@
+{
+  "LambdaFunctionConfigurations": [{
+    "LambdaFunctionArn": "arn:aws:lambda:us-west-2:975049932999:function:GS-SatelliteSimulator",
+    "Events": ["s3:ObjectCreated:*"],
+    "Filter": {
+      "Key": {
+        "FilterRules": [{"Name": "prefix", "Value": "commands/"}]
+      }
+    }
+  }]
+}

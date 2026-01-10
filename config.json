@@ -1,0 +1,10 @@
+{
+  "region": "us-west-2",
+  "account_id": "975049932999",
+  "uplink_bucket": "gs-uplink-975049932999",
+  "downlink_bucket": "gs-downlink-975049932999",
+  "storage_bucket": "gs-storage-975049932999",
+  "kinesis_stream": "gs-telemetry",
+  "role_name": "GroundStationSimRole",
+  "role_arn": "arn:aws:iam::975049932999:role/GroundStationSimRole"
+}

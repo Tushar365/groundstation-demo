@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "gs-uplink-975049932999"
+        },
+        "object": {
+          "key": "commands/TASK-20260110-151259.json"
+        }
+      }
+    }
+  ]
+}
